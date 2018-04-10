@@ -3,30 +3,105 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
-        cq:lastModified="{Date}2018-04-08T17:40:42.109+01:00"
+        cq:lastModified="{Date}2018-04-09T21:23:21.872+01:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/article-page-template"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="wknd/components/structure/page">
         <root
+            jcr:lastModified="{Date}2018-04-08T22:49:04.618+01:00"
+            jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
             <header
-                jcr:created="{Date}2018-04-08T17:39:23.425+01:00"
+                jcr:created="{Date}2018-04-08T23:55:35.840+01:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2018-04-08T17:39:23.425+01:00"
+                jcr:lastModified="{Date}2018-04-08T23:55:35.840+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wknd/components/structure/header"/>
+                sling:resourceType="wknd/components/structure/header">
+                <navigation
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/structure/navigation"/>
+                <search
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/structure/search"/>
+            </header>
+            <image
+                jcr:created="{Date}2018-04-09T21:16:28.107+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-04-09T21:16:28.107+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/content/image"/>
             <responsivegrid
                 jcr:created="{Date}2018-04-08T17:40:42.105+01:00"
                 jcr:createdBy="admin"
                 jcr:lastModified="{Date}2018-04-08T17:40:42.105+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid"
-                editable="{Boolean}true">
+                sling:resourceType="wcm/foundation/components/responsivegrid">
                 <cq:responsive jcr:primaryType="nt:unstructured"/>
+                <title
+                    jcr:created="{Date}2018-04-08T22:51:40.363+01:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-04-08T22:51:40.363+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/title"
+                    editable="{Boolean}true"/>
+                <text
+                    jcr:created="{Date}2018-04-08T22:50:50.459+01:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-04-08T22:50:50.459+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/text"
+                    editable="{Boolean}true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="6"/>
+                    </cq:responsive>
+                </text>
+                <text_93689192
+                    jcr:created="{Date}2018-04-08T22:50:55.778+01:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-04-08T22:50:55.778+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/text"
+                    editable="{Boolean}true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="6"/>
+                    </cq:responsive>
+                </text_93689192>
+                <contentfragment
+                    jcr:created="{Date}2018-04-08T23:00:50.240+01:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-04-08T23:00:50.240+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/contentfragment"
+                    editable="{Boolean}true"/>
+                <responsivegrid
+                    jcr:created="{Date}2018-04-08T23:31:00.251+01:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-04-08T23:31:00.251+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <cq:responsive jcr:primaryType="nt:unstructured"/>
+                    <navigation
+                        jcr:created="{Date}2018-04-08T23:32:26.952+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-04-08T23:32:26.952+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/structure/navigation"/>
+                </responsivegrid>
             </responsivegrid>
         </root>
         <cq:responsive jcr:primaryType="nt:unstructured">
